@@ -6,7 +6,10 @@ const App = () => {
   const [search,setSearch] = useState('');
   //to store the api data
   const [data,setData] = useState([]);
-
+//https://developer.edamam.com/recipe-search-api-v2-changelog   for URL
+// https://developer.edamam.com/edamam-docs-recipe-api-v1 
+//https://developer.edamam.com/admin/applications     for key
+//change Obj from 0 to 30
   const YOUR_APP_ID = "fcffa34d";
   const YOUR_APP_KEY ="d781b3f49c9295972990669c1004f9a7";
   const submitHandler = e =>{
